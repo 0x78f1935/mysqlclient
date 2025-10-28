@@ -19,7 +19,7 @@ DATABASES = {
         "HOST": "127.0.0.1",
         "USER": "scott",
         "PASSWORD": "tiger",
-        "TEST": {"CHARSET": "utf8mb3", "COLLATION": "utf8mb3_general_ci"},
+        "TEST": {"CHARSET": "utf8mb4", "COLLATION": "utf8mb4_general_ci"},
     },
     "other": {
         "ENGINE": "django.db.backends.mysql",
@@ -27,7 +27,7 @@ DATABASES = {
         "HOST": "127.0.0.1",
         "USER": "scott",
         "PASSWORD": "tiger",
-        "TEST": {"CHARSET": "utf8mb3", "COLLATION": "utf8mb3_general_ci"},
+        "TEST": {"CHARSET": "utf8mb4", "COLLATION": "utf8mb4_general_ci"},
     },
 }
 
